@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS | HTML & CSS Crash Course</title>
+    <link rel="stylesheet" href="style/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>HTML & CSS Crash Course</h1>
+    </header>
+
+    <main>
+      <h2>CSS Basics</h2>
+      <p><a href="index.html">Back Home</a></p>
+
+      <h3>What is CSS?</h3>
+      <p>CSS styles HTML by changing how things look—like colors, fonts, and layout. You write rules using selectors and curly
+      braces.</p>
+
+      <h3>Classes & IDs</h3>
+      <p>A class lets you style many elements the same way, using a . before the name (like .note). An ID is for one unique
+      element, using # (like #header).</p>
+
+      <h3>Box Model</h3>
+      <p>Every HTML element is a box made of four parts: content, padding, border, and margin. Understanding this helps with
+      spacing and layout.</p>
+
+      <h3>Margin & Padding</h3>
+      <p>Padding is the space inside the border, around the content. Margin is the space outside the border, between elements.</p>
+
+      <!-- Margin, Border, Padding & Content Model-->
+      <div class="spacing-model">
+        <div class="margin"> <!-- Margin -->
+          <p>Margin</p>
+          <div class="border"> <!-- Border -->
+            <p>Border</p>
+            <div class="padding"> <!-- Padding -->
+              <p>Padding</p>
+              <div class="content"> <!-- Content -->
+                <p>Content</p>
+              </div> <!-- Content -->
+              <p>Padding</p>
+            </div> <!-- Padding-->
+            <p>Border</p>
+          </div> <!-- Border -->
+          <p>Margin</p>
+        </div> <!-- Margin -->
+      </div> <!-- Spacing Model -->
+    </main>
+
+    <footer>
+      <p><em>Break out of tutorial hell by building a simple website using HTML and CSS.</em></p>
+
+      <!-- Box Model Model -->
+      <div class="columns">
+        <div class="column">
+          <h5>HTML</h5>
+          <p>The content of the web.</p>
+          <p><a href="html.html">HTML</a></p>
+        </div>
+
+        <div class="column">
+          <h5>CSS</h5>
+          <p>The styling of the web.</p>
+          <p><a href="css.html">CSS</a></p>
+        </div>
+
+        <div class="column">
+          <h5>JavaScript</h5>
+          <p>The functionality of the web.</p>
+          <p class="not-link">&lt;a href="javascript.html"&gt;JS&lt;/a&gt;</p>
+        </div>
+      </div> <!-- Columns -->
+    </footer>
+  </body>
+</html>
